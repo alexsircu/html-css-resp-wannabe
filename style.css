@@ -85,11 +85,17 @@ img {
     width: 100%;
     /* height: 40vh; */
     float: none;
-    font-size: 1.5em;
+    font-size: 2.5em;
+  }
+  #lezioni .row>.left {
+    margin-bottom: 5%;
+  }
+  #lezioni h3 {
+    font-size: 1.2em;
   }
 
   #steps>.row {
-    height: 100vh;
+    /* height: 100vh; */
   }
   #steps .row>h1 {
     /* height: 10vh; */
@@ -101,12 +107,16 @@ img {
     width: 100%;
       /* height: 30vh; */
     float: none;
-    font-size: 1.5em;
+    font-size: 2.5em;
+  }
+  #steps .row>.left,
+  #steps .row>.central {
+    margin-bottom: 5%;
+  }
+  #steps h3 {
+    font-size: 1.2em;
   }
 
-  #why>.row {
-    height: 100vh;
-  }
   #why .row>h1 {
     /* height: 10vh; */
     font-size: 4em;
@@ -116,7 +126,11 @@ img {
   #why .row>.third {
     width: 100%;
     /* height: 30vh; */
-    font-size: 1.5em;
+    font-size: 2.5em;
+  }
+  #steps .row>.firsr,
+  #steps .row>.second {
+    margin-bottom: 5%;
   }
 
 
